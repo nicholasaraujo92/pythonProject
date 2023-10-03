@@ -1,6 +1,6 @@
 from cpf_cnpj import *
 
 
-exemplo_cnpj = "35379838000112"
-documento = CpfCnpj(exemplo_cnpj, 'cnpj')
+cpf_um = '0861286790'
+documento = Documento.cria_documento(cpf_um)
 print(documento)
